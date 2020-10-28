@@ -6,8 +6,8 @@ import GlobalStyle from './styles/global';
 function App() {
   return (
     <>
-     <SignIn></SignIn>
-     <GlobalStyle></GlobalStyle>
+      <SignIn></SignIn>
+      <GlobalStyle></GlobalStyle>
     </>
   );
 }
