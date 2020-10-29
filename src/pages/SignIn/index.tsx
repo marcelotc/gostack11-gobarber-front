@@ -28,6 +28,7 @@ const SignIn: React.FC = () => {
             await schema.validate(data, {
                 abortEarly: false
             });
+        await schema.validate(data);
         } catch (err) {
             const errors = getValidationErrors(err);
 
